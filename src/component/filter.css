@@ -1,0 +1,46 @@
+
+.gather{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background:linear-gradient(45deg,#7293c0,#7dbbe2,#a8dadc,#ffff00) ;
+  background-size: 300%;
+  margin-bottom: 1rem;
+  animation: animate 25s ease-in-out infinite alternate ;
+
+}
+@keyframes animate{
+    from{
+        background-position:0% 100%;
+    }
+    to{
+        background-position:100% 200%;
+    }
+    to{
+        background-position:200% 300%;
+    }
+    
+  }
+
+.serchicons{
+   color: rgb(238, 132, 238);
+   padding-left:1rem;
+   padding-right:.3rem;
+  font-size: 1.4rem;
+}
+
+  .serchinput{
+      height: 2rem;
+      width: 20rem;
+        padding-left: 1rem;
+        margin-right: 1rem;
+        border: 0.3em inset #4f82ca ;  
+        border-radius: 1rem ;}
+
+        .btn{
+          margin-left: 34rem;
+          margin-bottom: 2rem;
+
+        }
+        

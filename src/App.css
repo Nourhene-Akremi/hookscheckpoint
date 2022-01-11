@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+.bacgnav{
+  background:linear-gradient(90deg,#1d3557,45%,#457b9d,#a8dadc) ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  background-image: linear-gradient(45deg,#55f121e5,#4cc9f0 ,#a01aeee0);
+   background-size: 300%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: a;
+  animation: animate 15s linear infinite ;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes animate{
+  from{
+      background-position:0%;
   }
-  to {
-    transform: rotate(360deg);
+  to{
+      background-position:300%;
   }
 }
+
+.mynavbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+.mynavbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  }
+
+  .mynavbar ul li{
+    margin-left: 1rem;
+  }
+
+.icons{
+  font-size: 1rem;
+  display: flex;  
+align-items: center;
+justify-content: center;
+}
+  .text{
+    font-family: a;
+
+}
+.icons {
+  background-image: linear-gradient(30deg,#55f121e5,#4cc9f0);
+   background-size: 300%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  animation: animate 14s linear infinite ;
+}
+@keyframes animate{
+  from{
+      background-position:0%;
+  }
+  to{
+      background-position:300%;
+  }
+}
+
+.text {
+  background-image: linear-gradient(30deg,#55f121e5,#bdec3a ,#4ed2f3f5);
+   background-size: 300%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  animation: animate 5s linear infinite ;
+}
+@keyframes animate{
+  from{
+      background-position:0%;
+  }
+  to{
+      background-position:300%;
+  }
+}
+
+.movieList{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows:repeat(2,1fr) ;
+  gap: 1rem;
+ width: 24rem;
+ 
+
+}
+.movieList img{
+width: 100%;
+}
+.cardcontenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headacke{
+ border: .3rem inset #1d3557;
+ border-radius: 2rem;
+ width: 24rem;
+ background-color: #e3e7e9ea;
+ 
+}
+
+
+
