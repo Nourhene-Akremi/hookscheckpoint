@@ -1,0 +1,63 @@
+.bodyOpacity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.detailsname{
+    font-family: a;
+}
+.detailsDescription ,.detailsSeason{
+    letter-spacing: .3rem;
+}
+.detailsepisodes
+,.detailsSeason{
+word-spacing: .5rem;
+}
+
+.detailsname {
+    padding-top: 1rem;
+    background-image: linear-gradient(45deg,#033d03e5,rgb(0, 255, 255),#bae912);
+     background-size: 300%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-box-reflect: below -0.2rem linear-gradient(transparent, rgb(240, 233, 233));
+
+    animation: animate 15s linear infinite ;
+  }
+  @keyframes animate{
+    from{
+        background-position:0%;
+    }
+    to{
+        background-position:300%;
+    }
+  }
+  .detailsDescription
+  {    padding-top: 2rem;}
+
+
+  .detailsDescription,.detailsepisodes,
+  .detailsSeason
+  {   
+        background-image: linear-gradient(45deg,#330aece5,#a00728 ,#0a010fe0);
+         background-size: 300%;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-weight: bold;
+       font-family: a;
+        animation: x 15s linear infinite ;
+      }
+      @keyframes x{
+        from{
+            background-position:0%;
+        }
+        to{
+            background-position:300%;
+        }
+      }
+     
+  

@@ -1,6 +1,6 @@
 import React from 'react'
 import MovieCard from './moviecard'
-
+import Rating from './rating'
 function movielist({movieList,search,rating}) {
     return (
         <div className='movieList'>
